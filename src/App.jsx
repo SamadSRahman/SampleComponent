@@ -38,7 +38,7 @@ export default function App() {
   // The following hypothetical 
   // <FourOhFour> is placeholder.
   if (notFound && !isPreviewingInBuilder) {
-    return <FourOhFour/>
+    return <>404</>
   }
 
   // return the page when found
