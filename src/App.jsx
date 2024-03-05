@@ -17,7 +17,7 @@ export default function App() {
     async function fetchContent() {
       const content = await builder
         .get("page", {
-          url: window.location.pathname
+          url: "sample-component-1"
         })
         .promise();
 
